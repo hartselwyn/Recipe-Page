@@ -1,0 +1,52 @@
+.nutrition_container_components h1 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    margin-top: -.10rem;
+    font-size: 25px;
+}
+
+.nutrition_container_components p {
+    font-family: "Outfit", serif;
+    opacity: 80%;
+    font-size: 11px;
+    margin-top: -.5rem;
+    width: 100%;
+}
+
+.nutrition_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition_table td {
+    /* border-top: 1px solid #ccc; */
+    font-family: "Outfit", serif;
+    font-size: 13px;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    opacity: 70%;
+}
+
+.nutrition_table tr:last-child td {
+    border-bottom: none;
+}
+
+.nutrition_measurement {
+    font-family: "Outfit", serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    margin-top: -.10rem;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .nutrition_container_components {
+        width: 80%;
+        margin: auto;
+    }
+
+    .nutrition_table {
+        margin-bottom: 20px;
+    }
+}

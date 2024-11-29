@@ -1,0 +1,96 @@
+.hero_page {
+    display: flex;
+    flex-direction: column;
+    /* padding: 1.5rem; */
+    margin: auto;
+    /* margin-top: 1rem ; */
+}
+
+.hero_page img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 90%;
+    margin-top: -.5rem;
+}
+
+.hero_page_heading {
+    font-family: 'Young Serif', serif;
+    font-weight: 600;
+    font-size: 30px;
+    opacity: 80%;
+}
+
+.hero_page_info {
+    font-family: "Outfit", serif;
+    opacity: 60%;
+    font-size: 11px;
+    margin-top: -.5rem;
+    width: 100%;
+}
+
+.hero_page_preptime {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 10px;
+}
+
+.hero_page_preptime p {
+    font-family: "Outfit", serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: hsl(332, 51%, 32%);
+    padding-left: 1rem;
+    margin-top: -.5px;
+}
+
+.hero_page_preptime ul {
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Outfit", serif;
+    font-size: 13px;
+    margin-bottom: -.3px;
+}
+
+
+.hero_page_preptime ul li {
+    padding-left: 20px;
+    opacity: 50%;
+}
+
+.hero_page_preptime ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.hero_page_preptime ul li strong {
+    font-family: "Outfit", serif;
+    /* font-size: 15px; */
+}
+
+@media screen and (max-width: 600px) {
+    .hero_page {
+        margin: auto;
+    }
+
+    .hero_page_heading {
+        padding-left: 1rem;
+        margin-top: 15px;
+    }
+
+    .hero_page_info {
+        padding-left: 1rem;
+        width: 80%;
+        margin: 15px, auto;
+    }
+
+    .hero_page_preptime {
+        width: 80%;
+        margin: auto;
+        margin-top: ;
+    }
+
+}

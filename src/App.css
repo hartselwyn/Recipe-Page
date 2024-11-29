@@ -1,0 +1,24 @@
+html, body {
+  background-color: hsl(330, 100%, 98%);
+  height: 100%;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 30%;
+  margin: 5rem auto;
+  padding: 1.5rem;
+  background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+}
